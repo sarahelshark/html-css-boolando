@@ -17,6 +17,9 @@
 a{
     text-decoration: none;
 }
+ul{
+    list-style-type: none;
+}
 
 img{
     max-width: 100%;
@@ -24,15 +27,46 @@ img{
 /*#endregion commmon*/
 
 /*#region debug*/
+.debug{
+    background-color: red;
+}
+
+.debug header{
+    background-color: yellow;
+}
+
+.debug .header_container{
+    background-color: aqua;
+}
+
+.debug .menu-category{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.debug .menu-actions{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
 /*#endregion debug*/
 
 /*#region utilities*/
+.header_container{
+    width: 100%;
+    position: relative;
+    height: 7vh;
+}
 
 .container{
     width: 70%;
     max-width: 1176px;
     margin: auto;
 }
+
+.sm_container{}
+.footer_container{}
 
 .row{
     display: :flex;
@@ -69,3 +103,48 @@ width: calc((100%/12)*4);
 }
 .padding
 /*#endregion utilies*/
+
+/*#region header*/
+
+
+
+.menu-category{          /* left*/
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.menu-category ul{
+ display: inline-block;
+}
+& li{
+    text-align: center;
+    padding: 2vh;
+}
+
+.menu-category li{
+   float: left;
+}
+
+.menu-actions{             /* right*/
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.menu-actions ul{
+    display: inline-block;
+   }
+
+   & li{
+       text-align: center;
+       padding: 2vh;
+   }
+   
+   .menu-actions li{
+      float: right;
+   }
+
+/*#endregion header*/
+
+
