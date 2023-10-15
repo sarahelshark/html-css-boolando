@@ -6,7 +6,12 @@
 }
 
 :root{
-
+    --bool-header:#FF6900;
+    --bool-primary-light:#FFFCFA;
+    --bool-body:#FFFFFF;
+    --bool-danger:#FF0000;
+    --bool-success:#008000;
+    --bool-dark:#1A1A1A;
 }
 
 a{
@@ -14,7 +19,7 @@ a{
 }
 
 img{
-    max-width: 100&;
+    max-width: 100%;
 }
 /*#endregion commmon*/
 
