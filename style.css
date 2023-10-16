@@ -33,13 +33,15 @@ img{
     height: 7vh;
 }
 
-.container{
+.lg-container{
     width: 70%;
     max-width: 1176px;
     margin: auto;
 }
 
-.sm_container{}
+.sm_container{
+    width: calc(100%/6);
+}
 .footer_container{}
 
 .row{
@@ -106,8 +108,7 @@ width: calc((100%/12)*4);
  
 .menu-actions ul{
     display: inline-block;
-}
-
+}7
 & li{
  text-align: center;
  padding: 2vh; 
@@ -119,7 +120,7 @@ width: calc((100%/12)*4);
 
 .logo{                    /*center*/
   height: 40px;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 50%;
   transform: translate(-50%) ;
@@ -142,6 +143,14 @@ width: calc((100%/12)*4);
     background-color: aqua;
 }
 
+.debug .lg-container{
+    background-color: #008000;
+    height: 100vh;
+}
 
+.debug .sm_container{
+    background-color: pink;
+    margin: 3px dotted solid violet;
+}
 /*#endregion debug*/
 
