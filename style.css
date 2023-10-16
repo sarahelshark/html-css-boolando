@@ -101,7 +101,7 @@ width: calc((100%/12)*4);
 }
 
 .menu-actions{             /* right*/
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
 }
