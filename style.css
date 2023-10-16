@@ -83,7 +83,7 @@ width: calc((100%/12)*4);
 /*#region header*/
 
 .menu-category{          /* left*/
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
 }
